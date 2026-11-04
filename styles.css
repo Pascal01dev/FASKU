@@ -922,6 +922,7 @@ ul {
   grid-template-columns: 1.2fr 1fr;
   gap: 30px;
   align-items: center;
+  /* background-color:purple */
 }
 
 .banner-badge {
@@ -1239,12 +1240,39 @@ ul {
     padding: 24px;
   }
 
+  .registry-card {
+    padding: 40px 20px;
+  }
+
+  .registry-form-wrap {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+
   .form-grid {
     grid-template-columns: 1fr;
   }
 
   .form-group.full-width {
     grid-column: span 1;
+  }
+
+  .newsletter-banner {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color:purple */
+  }
+
+  .brief-card {
+    padding: 28px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
   }
 
   .footer-grid {
@@ -1256,4 +1284,5 @@ ul {
     gap: 12px;
     text-align: center;
   }
+  
 }
