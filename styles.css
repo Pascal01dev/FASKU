@@ -399,6 +399,12 @@ ul {
   flex-wrap: wrap;
 }
 
+.hero-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .hero-accreditation {
   display: flex;
   align-items: center;
@@ -1167,6 +1173,25 @@ ul {
 
 @media (max-width: 768px) {
 
+  .section-header {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    /* background-color: orange; */
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--primary-red);
+    line-height: 1.2;
+    /* background-color: red; */
+  }
+  /* ================= HEADER ================= */
+
+
   .header-actions{
     display: flex;
   }
@@ -1233,8 +1258,28 @@ ul {
   background-color: var(--bg-cream);
 }
 
+/* ================= HERO SECTION ================= */
+
+.hero-section {
+  background-image: url(images/sam.jpg);
+  /* background-size: cover;
+  background-position: center;
+   background-color: rgb(0, 0, 0, 0.7); 
+   background-blend-mode:darken;
+  padding: 70px 0 90px;
+  color: #FFFFFF; */
+}
+
+.hero-badge span{
+  font-size: 0.8em;
+}
+
   .hero-title {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
+  }
+
+  .event-heading{
+    width:70%;
   }
 
   .events-grid,
